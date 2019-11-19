@@ -554,9 +554,9 @@ pre code {
 }
 
 .container {
-  width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
+  width: 70%;
+  padding-right: auto;
+  padding-left: auto;
   margin-right: auto;
   margin-left: auto;
 }
@@ -579,9 +579,9 @@ pre code {
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1100px) {
   .container {
-    max-width: 1400px;
+    max-width: 1600px;
   }
 }
 

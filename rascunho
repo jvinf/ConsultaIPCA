@@ -1,0 +1,152 @@
+			<table class="table table-dark">
+				<thead>
+					<tr>
+						<th colspan="5">Brasil setembro de 2019</th>
+					</tr>
+					<tr>
+						<th scope="col">Índice geral e grupos de produtos e serviços</th>
+						<th scope="col">Variação mensal(%)</th>
+						<th scope="col">Variação acumulada no ano(%)</th>
+						<th scope="col">Variação acumulada em 12 meses(%)</th>
+						<th scope="col">Peso mensal(%)</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<th scope="row">Índice geral</th>
+						<td>-0,04</td>
+						<td>2,49</td>
+						<td>2,89</td>
+						<td>100,0000</td>
+					</tr>
+					<tr>
+						<th scope="row">Alimentos e bebidas</th>
+						<td>-0,43</td>
+						<td>2,10</td>
+						<td>3,56</td>
+						<td>24,6262</td>
+					</tr>
+					<tr>
+						<th scope="row">Habitação</th>
+						<td>0,02</td>
+						<td>4,66</td>
+						<td>3,91</td>
+						<td>16,1596</td>
+					</tr>
+					<tr>
+						<th scope="row">Artigos de residência</th>
+						<td>-0,76</td>
+						<td>0,56</td>
+						<td>2,39</td>
+						<td>3,9333</td>
+					</tr>
+					<tr>
+						<th scope="row">Vestuário</th>
+						<td>0,27</td>
+						<td>-0,24</td>
+						<td>0,80</td>
+						<td>5,6209</td>
+					</tr>
+					<tr>
+						<th scope="row">Transportes</th>
+						<td>0,00</td>
+						<td>1,25</td>
+						<td>0,87</td>
+						<td>18,1404</td>
+					</tr>
+					<tr>
+						<th scope="row">Saúde e cuidados pessoais</th>
+						<td>0,58</td>
+						<td>4,33</td>
+						<td>4,20</td>
+						<td>12,2059</td>
+					</tr>
+					<tr>
+						<th scope="row">Despesas pessoais</th>
+						<td>0,04</td>
+						<td>2,25</td>
+						<td>3,17</td>
+						<td>10,8577</td>
+					</tr>
+					<tr>
+						<th scope="row">Educação</th>
+						<td>0,04</td>
+						<td>4,43</td>
+						<td>4,74</td>
+						<td>5,0139</td>
+					</tr>
+					<tr>
+						<th scope="row">Comunicação</th>
+						<td>-0,01</td>
+						<td>0,43</td>
+						<td>0,39</td>
+						<td>3,4422</td>
+					</tr>
+				</tbody>
+			</table>
+
+
+
+
+
+
+
+
+
+
+
+3 tabelas que mostram as coisas 
+
+
+<div class="container">
+					<h2 class="heading text-capitalize"> Como é medido? </h2>
+					<p class="subs mt-4">Todos os meses são coletadas estimativas de preços de produtos em determinadas regiões do país.</p>
+					<p class="subs mt-4"> Com essas estimativas é feito um cálculo da média aritmética simples de preços dos locais da amostra do produto que,
+						comparadas em dois meses consecutivos, resultam no relativo das médias.
+					</p>
+					<p class="subs mt-4">Os índices nacionais são calculados a partir dos resultados dos índices regionais, utilizando-se a média aritmética
+						ponderada e a partir daí é definido a variação.</p>
+					</p>
+					<div class="agileits-services-row row pt-md-5 pb-5  text-center">
+						<div class="col-lg-4">
+							<div class="agileits-services-grids mt-lg-0 mt-md-0 mt-5">
+								<span class="fa fa-tree"></span>
+								<h4 class="mt-4 mb-4">Regiões análisadas</h4>
+								<p>Belém, Fortaleza,</p>
+								<p>Recife, Salvador, </p>
+								<p>Belo Horizonte, Vitória,</p>
+								<p>Rio de Janeiro, São Paulo,</p>
+								<p>Curitiba, Porto Alegre,</p>
+								<p>Distrito Federal,</p>
+								<p>Goiânia e </p>
+								<p>Campo Grande.</p><br>
+
+							</div>
+						</div>
+						<div class="col-lg-4">
+							<div class="agileits-services-grids mt-lg-0 mt-5">
+								<span class="fa fa-check-square"></span>
+								<h4 class="mt-4 mb-4">Itens análisados</h4>
+								<p>Moradia</p>
+								<p>Alimentação e bebidas</p>
+								<p>Saúde e higiene pessoal</p>
+								<p>Artigos para casa</p>
+								<p>Despesas pessoais</p>
+								<p>Educação</p>
+								<p>Comunicação</p>
+								<p>Transporte</p>
+								<p>Vestuário</p>
+								</p>
+							</div>
+						</div>
+						<div class="col-lg-4  mt-lg-0 mt-5">
+							<div class="agileits-services-grids">
+								<span class="fa fa-group"></span>
+								<h4 class="mt-4 mb-4">População alvo</h4>
+								<p>A população objetivo do IPCA é representada pelas famílias residentes em áreas urbanas com rendimento familiar monetário
+									compreendido entre 1 e 40 salários mínimos mensais</p>
+								<p> quaisquer que sejam as fontes de rendimento.</p><br>
+							</div>
+						</div>
+					</div>
+					<p class="subs mb-4">Logo abaixo iremos ver o índice baseado nos itens acima análisados</p>
