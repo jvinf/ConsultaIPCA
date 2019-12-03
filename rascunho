@@ -150,3 +150,69 @@
 						</div>
 					</div>
 					<p class="subs mb-4">Logo abaixo iremos ver o índice baseado nos itens acima análisados</p>
+
+
+
+
+
+
+
+
+
+
+
+					<tr class="estado" id="decimosetimo-estado">
+								<th class="info-posicao" scope="row">17</th>
+								<td class="info-estado">Pernambuco</td>
+								<td class="info-variacao">2,49</td>
+							</tr>
+							<tr class="estado" id="decimooitavo-estado">
+								<th class="info-posicao" scope="row">18</th>
+								<td class="info-estado">Piauí</td>
+								<td class="info-variacao">2,49</td>
+							</tr>
+							<tr class="estado" id="decimonono-estado">
+								<th class="info-posicao" scope="row">19</th>
+								<td class="info-estado">Rio de Janeiro</td>
+								<td class="info-variacao">2,49</td>
+							</tr>
+							<tr class="estado" id="vigesimo-estado">
+								<th class="info-posicao" scope="row">20</th>
+								<td class="info-estado">Rio Grande do Norte</td>
+								<td class="info-variacao">2,49</td>
+							</tr>
+							<tr class="estado" id="vigesimoprimeiro-estado">
+								<th class="info-posicao" scope="row">21</th>
+								<td class="info-estado">Rio Grande do Sul</td>
+								<td class="info-variacao">2,49</td>
+							</tr>
+							<tr class="estado" id="vigesimosegundo-estado">
+								<th class="info-posicao" scope="row">22</th>
+								<td class="info-estado">Rondônia</td>
+								<td class="info-variacao">2,49</td>
+							</tr>
+							<tr class="estado" id="vigesimoterceiro-estado">
+								<th class="info-posicao" scope="row">23</th>
+								<td class="info-estado">Roraima</td>
+								<td class="info-variacao">2,49</td>
+							</tr>
+							<tr class="estado" id="vigesimoquarto-estado">
+								<th class="info-posicao" scope="row">24</th>
+								<td class="info-estado">Santa Catarina</td>
+								<td class="info-variacao">2,49</td>
+							</tr>
+							<tr class="estado" id="vigesimoquinto-estado">
+								<th class="info-posicao" scope="row">25</th>
+								<td class="info-estado">São Paulo</td>
+								<td class="info-variacao">2,49</td>
+							</tr>
+							<tr class="estado" id="vigesimosexto-estado">
+								<th class="info-posicao" scope="row">26</th>
+								<td class="info-estado">Sergipe</td>
+								<td class="info-variacao">2,49</td>
+							</tr>
+							<tr class="estado" id="vigesimosetimo-estado">
+								<th class="info-posicao" scope="row">27</th>
+								<td class="info-estado">Tocantins</td>
+								<td class="info-variacao">2,49</td>
+							</tr>

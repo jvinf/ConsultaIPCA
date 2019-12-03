@@ -338,195 +338,140 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<div class="grupo">
 						<label for="mes">Mês de pesquisa:</label>
 						<select id="mes" name="mes" class="form-control">
-							    <option selected="selected" value="2019">Janeiro</option>
-                             	<option value="2017">Fevereiro</option>
-                             	<option value="2017">Março</option>
-                             	<option value="2017">Abril</option>
-                             	<option value="2017">Maio</option>
-                             	<option value="2017">Junho</option>
-                             	<option value="2017">Julho</option>
-                             	<option value="2017">Agosto</option>
-                             	<option value="2017">Setembro</option>
-                                <option value="2016">Outubro</option>   
-                                <option value="2016">Novembro</option>   
-                                <option value="2016">Dezembro</option>   
+                             	<option id="janeiro">Janeiro</option>
+								<option id="fevereiro">Fevereiro</option>
+                             	<option id="marco">Março</option>
+                             	<option id="abril">Abril</option>
+                             	<option id="maio">Maio</option>
+                             	<option id="junho">Junho</option>
+                             	<option id="julho">Julho</option>
+                             	<option id="agosto">Agosto</option>
+                             	<option selected="selected" id="setembro">Setembro</option>
+                                <option id="outubro">Outubro</option>   
+                                <option id="novembro">Novembro</option>   
+                                <option id="dezembro">Dezembro</option>   
                         </select>
 					</div>
 					<br>
 					<div class="grupo">
 						<label for="indicador">Indicador:</label>
 						<select id="indicador" name="indicador" class="form-control">
-							    <option selected="selected" value="2019">Segurança</option>
-                                <option value="2018">Alimentação</option>
-                             	<option value="2017">Moradia</option>
+							    <option selected="selected" id="alimentacao">Alimentação</option>
+                                <option id="habitação">habitação</option>
+                             	<option id="transportes">Transportes</option>
                         </select>
 					</div>
 					<br>
 					<div class="grupo">
-                        <button class="btn btn-warning bt-up-rank" type="submit">Atualizar Ranking</button>
+                        <button id="atualizar-ranking" class="btn btn-warning bt-up-rank" type="submit">Atualizar Ranking</button>
                     </div>
 					<br>
 					<table class="table table-sm table-bordered">
 						<thead>
 							<tr>
-								<th colspan="5">Custo de vida</th>
+								<th colspan="5">Custo dos Alimentos</th>
 							</tr>
 							<tr>
 								<th scope="col">Posição</th>
 								<th scope="col">Estado</th>
-								<th scope="col">Variação do custo dos alimentos(%)</th>
+								<th scope="col">Variação mensal do custo (%)</th>
 
 							</tr>
 						</thead>
 						<tbody id="tabela-estados">
 							<tr class="estado" id="primeiro-estado">
 								<th class="info-posicao" scope="row">1</th>
-								<td class="info-estado">Acre</td>
-								<td class="info-variacao">2,59</td>
+								<td class="info-estado">Campo Grande</td>
+								<td class="info-variacao">0,72</td>
 							</tr>
 							<tr class="estado" id="segundo-estado">
 								<th class="info-posicao" scope="row">2</th>
-								<td class="info-estado">Alagoas</td>
-								<td class="info-variacao">2,49</td>
+								<td class="info-estado">Rio de Janeiro</td>
+								<td class="info-variacao">0,38</td>
 							</tr>
 							<tr class="estado" id="terceiro-estado">
 								<th class="info-posicao" scope="row">3</th>
-								<td class="info-estado">Amapá</td>
-								<td class="info-variacao">2,49</td>
+								<td class="info-estado">Belém</td>
+								<td class="info-variacao">0,29</td>
 							</tr>
 							<tr class="estado" id="quarto-estado">
 								<th class="info-posicao" scope="row">4</th>
-								<td class="info-estado">Amazonas</td>
-								<td class="info-variacao">2,49</td>
+								<td class="info-estado">Belo Horizonte</td>
+								<td class="info-variacao">0,22</td>
 							</tr>
 							<tr class="estado" id="quinto-estado">
 								<th class="info-posicao" scope="row">5</th>
-								<td class="info-estado">Bahia</td>
-								<td class="info-variacao">2,49</td>
+								<td class="info-estado">São Paulo</td>
+								<td class="info-variacao">0,24</td>
 							</tr>
 							<tr class="estado" id="sexto-estado">
 								<th class="info-posicao" scope="row">6</th>
-								<td class="info-estado">Ceará</td>
-								<td class="info-variacao">2,49</td>
+								<td class="info-estado">Fortaleza</td>
+								<td class="info-variacao">0,17</td>
 							</tr>
 							<tr class="estado" id="setimo-estado">
 								<th class="info-posicao" scope="row">7</th>
-								<td class="info-estado">Distrito Federal</td>
-								<td class="info-variacao">2,49</td>
+								<td class="info-estado">Goiânia</td>
+								<td class="info-variacao">0,09</td>
 							</tr>
 							<tr class="estado" id="oitavo-estado">
 								<th class="info-posicao" scope="row">8</th>
-								<td class="info-estado">Espirito Santo</td>
-								<td class="info-variacao">2,49</td>
+								<td class="info-estado">Vitória</td>
+								<td class="info-variacao">-0,14</td>
 							</tr>
 							<tr class="estado" id="nono-estado">
 								<th class="info-posicao" scope="row">9</th>
-								<td class="info-estado">Goiás</td>
-								<td class="info-variacao">2,49</td>
+								<td class="info-estado">São Luís</td>
+								<td class="info-variacao">-0,15</td>
 							</tr>
 							<tr class="estado" id="decimo-estado">
 								<th class="info-posicao" scope="row">10</th>
-								<td class="info-estado">Maranhão</td>
-								<td class="info-variacao">2,49</td>
+								<td class="info-estado">Rio Branco</td>
+								<td class="info-variacao">-0,16</td>
 							</tr>
 							<tr class="estado" id="decimoprimeiro-estado">
 								<th class="info-posicao" scope="row">11</th>
-								<td class="info-estado">Mato Grosso</td>
-								<td class="info-variacao">2,49</td>
+								<td class="info-estado">Salvador</td>
+								<td class="info-variacao">-0,24</td>
 							</tr>
 							<tr class="estado" id="decimosegundo-estado">
 								<th class="info-posicao" scope="row">12</th>
-								<td class="info-estado">Mato Grosso do Sul</td>
-								<td class="info-variacao">2,49</td>
+								<td class="info-estado">Porto Alegre</td>
+								<td class="info-variacao">-0,26</td>
 							</tr>
 							<tr class="estado" id="decimoterceiro-estado">
 								<th class="info-posicao" scope="row">13</th>
-								<td class="info-estado">Minas Gerais</td>
-								<td class="info-variacao">2,49</td>
+								<td class="info-estado">Curitiba</td>
+								<td class="info-variacao">-0,28</td>
 							</tr>
 							<tr class="estado" id="decimoquarto-estado">
 								<th class="info-posicao" scope="row">14</th>
-								<td class="info-estado">Pará</td>
-								<td class="info-variacao">2,49</td>
+								<td class="info-estado">Acaraju</td>
+								<td class="info-variacao">-0,38</td>
 							</tr>
 							<tr class="estado" id="decimoquinto-estado">
 								<th class="info-posicao" scope="row">15</th>
-								<td class="info-estado">Paraíba</td>
-								<td class="info-variacao">2,49</td>
+								<td class="info-estado">Brasilia</td>
+								<td class="info-variacao">-0,51</td>
 							</tr>
 							<tr class="estado" id="decimosexto-estado">
 								<th class="info-posicao" scope="row">16</th>
-								<td class="info-estado">Paraná</td>
-								<td class="info-variacao">2,49</td>
+								<td class="info-estado">Recife</td>
+								<td class="info-variacao">-0,73</td>
 							</tr>
-							<tr class="estado" id="decimosetimo-estado">
-								<th class="info-posicao" scope="row">17</th>
-								<td class="info-estado">Pernambuco</td>
-								<td class="info-variacao">2,49</td>
-							</tr>
-							<tr class="estado" id="decimooitavo-estado">
-								<th class="info-posicao" scope="row">18</th>
-								<td class="info-estado">Piauí</td>
-								<td class="info-variacao">2,49</td>
-							</tr>
-							<tr class="estado" id="decimonono-estado">
-								<th class="info-posicao" scope="row">19</th>
-								<td class="info-estado">Rio de Janeiro</td>
-								<td class="info-variacao">2,49</td>
-							</tr>
-							<tr class="estado" id="vigesimo-estado">
-								<th class="info-posicao" scope="row">20</th>
-								<td class="info-estado">Rio Grande do Norte</td>
-								<td class="info-variacao">2,49</td>
-							</tr>
-							<tr class="estado" id="vigesimoprimeiro-estado">
-								<th class="info-posicao" scope="row">21</th>
-								<td class="info-estado">Rio Grande do Sul</td>
-								<td class="info-variacao">2,49</td>
-							</tr>
-							<tr class="estado" id="vigesimosegundo-estado">
-								<th class="info-posicao" scope="row">22</th>
-								<td class="info-estado">Rondônia</td>
-								<td class="info-variacao">2,49</td>
-							</tr>
-							<tr class="estado" id="vigesimoterceiro-estado">
-								<th class="info-posicao" scope="row">23</th>
-								<td class="info-estado">Roraima</td>
-								<td class="info-variacao">2,49</td>
-							</tr>
-							<tr class="estado" id="vigesimoquarto-estado">
-								<th class="info-posicao" scope="row">24</th>
-								<td class="info-estado">Santa Catarina</td>
-								<td class="info-variacao">2,49</td>
-							</tr>
-							<tr class="estado" id="vigesimoquinto-estado">
-								<th class="info-posicao" scope="row">25</th>
-								<td class="info-estado">São Paulo</td>
-								<td class="info-variacao">2,49</td>
-							</tr>
-							<tr class="estado" id="vigesimosexto-estado">
-								<th class="info-posicao" scope="row">26</th>
-								<td class="info-estado">Sergipe</td>
-								<td class="info-variacao">2,49</td>
-							</tr>
-							<tr class="estado" id="vigesimosetimo-estado">
-								<th class="info-posicao" scope="row">27</th>
-								<td class="info-estado">Tocantins</td>
-								<td class="info-variacao">2,49</td>
-							</tr>
+							
 						</tbody>
 					</table>
 				</div>
 			</div>
-			<!-- works -->
+			
 			<section class="news text-center" id="work">
 
 
 				<!-- contact -->
 
 			</section>
-			<!-- //contact -->
-
+			<script src="js/table1.js"></script>
 </body>
 
 </html>
