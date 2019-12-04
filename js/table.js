@@ -33,7 +33,7 @@ botaoAdicionar.addEventListener("click", function(event){
 
     // posicaoTd.textContent = posicao;
     // estadoTd.textContent = estado;
-    // variacaoTd.textContent = variacao;
+     variacaoTd.textContent = variacao;
     
 
     // estadoTr.appendChild(posicaoTd);
