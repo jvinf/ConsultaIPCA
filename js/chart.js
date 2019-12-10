@@ -70,3 +70,16 @@ if (chDonut3) {
   });
 }
 
+
+$(document).ready(function () {
+  $('#tabelafinal').DataTable({
+
+      "language": {
+          "lengthMenu": "Mostrando _MENU_ registros por página",
+          "zeroRecords": "Nada encontrado",
+          "info": "Mostrando página _PAGE_ of _PAGES_",
+          "infoEmpty": "Nenhum registro disponível",
+          "infoFiltered": "(Filtrado de _MAX_ total registros no total)"
+      }
+  });
+});

@@ -1,4 +1,5 @@
-var botaoAdicionar = document.querySelector('#adicionar-paciente');
+
+/*var botaoAdicionar = document.querySelector('#adicionar-paciente');
 botaoAdicionar.addEventListener("click", function(event){
     //event.preventDefault();
 
@@ -14,7 +15,7 @@ for (var i = 0; i < estados.length; i++) {
     var variacao = estado.querySelector('.info-variacao').textContent;
 
 
-    
+
     var validaPeso = true;
     var validaAltura = true;
 
@@ -33,8 +34,9 @@ for (var i = 0; i < estados.length; i++) {
     if (validaPeso && validaAltura){
         var imc = peso / (altura * altura);
         tdImc.textContent = imc.toFixed(2);
-        
+
     }
 
 }
 
+*/

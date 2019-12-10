@@ -1,6 +1,17 @@
 console.log('Chegou na pagina table.js');
 
-var infosVariacoes = [{id: 1, estado: 'São Paulo', infoVariacao: 10}, {id: 2, estado: 'Acre', infoVariacao: 20}, {id: 3, estado: 'Goiás', infoVariacao: 30}]
+
+var infosVariacoes = [{id: 1, estado: 'São Paulo', infoVariacao: 10},
+                      {id: 2, estado: 'Acre', infoVariacao: 20}, 
+                      {id: 2, estado: 'Acre', infoVariacao: 20}, 
+                      {id: 2, estado: 'Acre', infoVariacao: 20}, 
+                      {id: 2, estado: 'Acre', infoVariacao: 20}, 
+                      {id: 2, estado: 'Acre', infoVariacao: 20}, 
+                      {id: 2, estado: 'Acre', infoVariacao: 20}, 
+                      {id: 2, estado: 'Acre', infoVariacao: 20}, 
+                      {id: 2, estado: 'Acre', infoVariacao: 20}, 
+                      {id: 2, estado: 'Acre', infoVariacao: 20}, 
+                      {id: 3, estado: 'Goiás', infoVariacao: 30}]
 var tableRowCcontent = '<tr class="estado" id="quinto-estado">'+
                             '<th class="info-posicao" scope="row">{{id}}</th>'+
                             '<td class="info-estado">{{infoEstado}}</td>'+
@@ -9,7 +20,9 @@ var tableRowCcontent = '<tr class="estado" id="quinto-estado">'+
 
 var botaoAdicionar = document.querySelector('#atualizar-ranking');
 botaoAdicionar.addEventListener("click", function(event){
-    event.preventDefault();
+    event.preventDefault(); 
+
+    
 
     var table = document.querySelector("#tabela-estados");
     var newContent = '';
